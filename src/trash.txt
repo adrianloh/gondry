@@ -1,0 +1,15 @@
+		<div class="controls" style="display:none">
+			TRT
+			<input v-model.number="trt">&nbsp;&nbsp;
+			T
+			<input v-model.number="T">&nbsp;&nbsp;
+			<span class="tc">{{ timecode }}</span>&nbsp;&nbsp;
+			[
+			<input v-model.number="ii">
+			<button @click="ii = -1">X</button>&nbsp;&nbsp;
+			]
+			<input v-model.number="oo">
+			<button @click="oo = -1">X</button>
+			&nbsp;&nbsp;
+			[--] {{ duration }}&nbsp;&nbsp;
+		</div>
