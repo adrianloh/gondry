@@ -11,7 +11,7 @@
     "@vue/test-utils": "1.0.0-beta.29",
     "displacejs": "1.3.2",
     "sortablejs": "1.10.0",
-    "vue": "2.6.10",
+    "vue": "3.0.0",
     "vue-template-compiler": "2.6.10",
     "vuedraggable": "2.20.0"
   },
